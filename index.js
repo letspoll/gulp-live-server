@@ -44,6 +44,7 @@ var callback = {
 
     serverError: function (data) {
         console.log(error(data.trim()));
+        process.exit(-1);
     }
 };
 
